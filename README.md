@@ -1,0 +1,1 @@
+Silahkan digunakan untuk coba coba Hackintosh Monterey di laptop HP 240G5, tapi ingat sebelum menginstal Instalasi OSnya kamu harus ganti dulu wifi card bawaan dari laptop itu dengan wifi card BCM94352Z agar bisa support untuk WIFI, Bluetooth, Airdrop.
