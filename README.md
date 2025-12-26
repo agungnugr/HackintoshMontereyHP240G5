@@ -5,6 +5,7 @@ Intel Core I3-6006U
 RAM 16GB DDR4
 VGA Intel HD Graphic
 SSD MidasForce 256GB
+WIFI Card BCM94352Z
 
 Yang Berfungsi di laptop ini
 Wifi ON
@@ -16,15 +17,15 @@ Baterai ON ( sampai muncul indikator persentase batrai )
 
 Kekurangannya adalah
 Karena Display bawaan nya itu cuman berukuran 1366x768 jadi gunakan fitur ini untuk membuat tulisannya menjadi HD 
-gunakan kode ini dengan Terminal yang ada di MacOs tersebut
+gunakan kode ini dengan Terminal yang ada di MacOs tersebut. tidak perlu dibuat tanda ( dan ) didalam Terminalnya.
 
 1. Aktifkan Algoritma Font Smoothing (Level 2)
-   defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
+   ( defaults -currentHost write -globalDomain AppleFontSmoothing -int 2 )
 
 2. Paksa Hidupkan Subpixel Antialiasing
-   defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+   ( defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO )
 
 3. Matikan Transparansi (PENTING untuk Kontras)
-   defaults write com.apple.universalaccess reduceTransparency -bool true
+   ( defaults write com.apple.universalaccess reduceTransparency -bool true )
 
 setelah di masukkan di terminal dan dijalankan langsung di restart saja, agar memaksimalkan fitur yang kita masukkan tadi.
